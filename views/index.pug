@@ -1,0 +1,359 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  // The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+  title MATCH YOUR CLOTHES
+  // Favicon
+  link(rel='shortcut icon' type='image/icon' href='assets/imges/favicon.ico')
+  // Font Awesome
+  link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet')
+  // Line icon
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css')
+  // Bootstrap
+  link(href='assets/css/bootstrap.min.css' rel='stylesheet')
+  // Slick slider
+  link(href='assets/css/slick.css' rel='stylesheet')
+  // Gallery Lightbox
+  link(href='assets/css/magnific-popup.css' rel='stylesheet')
+  // Theme color
+  link#switcher(href='assets/css/theme-color/default-theme.css' rel='stylesheet')
+  // Main Style
+  link(href='style.css' rel='stylesheet')
+  // Fonts
+  // Open Sans for body font
+  link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800' rel='stylesheet')
+  // Montserrat for Title
+  link(href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet')
+  // HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+  // WARNING: Respond.js doesn't work if you view the page via file://
+  //if lt IE 9
+    script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
+    script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+// Start Header
+header#mu-header(role='banner')
+  .container
+    nav.navbar.navbar-default.mu-navbar
+      .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1' aria-expanded='false')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          // Text Logo
+          a.navbar-brand(href='#')
+            p Match Clothes
+            p Save your Time
+          // Image Logo
+          // <a class="navbar-brand" href="#"><img src="assets/images/logo.png"></a>
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav.mu-menu.navbar-right
+            li
+              a(href='#') HOME
+            li
+              a(href='#mu-OUTFITS GENERATE') OUTFITS GENERATE
+            li
+              a(href='#mu-SELLING') SELLING
+            li
+              a(href='#mu-SHOPPING') SHOPPING
+            li
+              a(href='#mu-DONATE') DONATE
+            li
+              a(href='#mu-WEATHER') WISH LIST
+            li
+              a(href='#mu-TRIP PLANNER') TRIP PLANNER
+        // /.navbar-collapse
+      // /.container-fluid
+// End Header
+// Start Featured Slider
+section#mu-featured-slider
+  .row
+    .col-md-12
+      .mu-featured-slide
+        // Start Single slide
+        .mu-featured-slider-single
+          img(src='assets/images/slider-img-1.jpg')
+          .mu-featured-slider-content
+            p(style='font-size:18px') DO YOU HAVE A TOUGH TIME MATCHING CLOTHES AND FIGURING OUT WHAT GOES TOGETHER?
+            h1 Organize Your Closet
+            p How to Match Clothes for the Best Look
+            a.mu-primary-btn(href='#') START
+        // End Single slide
+        // Start Single slide
+        .mu-featured-slider-single
+          img(src='assets/images/slider-img-2.jpg')
+          .mu-featured-slider-content
+            p(style='font-size:18px') I have nothing to wear!Trouble Trip Packing Clothes? 
+            p(style='font-size:18px')
+              | If you want to know all the ins and outs of matching clothes, let&apos;s START with us!
+            h1 Organize Your Closet
+            p How to Match Clothes for the Best Look
+            a.mu-primary-btn(href='#') START
+        // End Single slide
+        // Start Single slide
+        .mu-featured-slider-single
+          img(src='assets/images/slider-img-3.jpg')
+          .mu-featured-slider-content
+            p(style='font-size:18px') You don&rsquo;t know how to color-match your clothes, huh?
+            p(style='font-size:18px') Do you have a messy closet?
+            h1 Organize Your Closet 
+            p How to Match Clothes for the Best Look
+            a.mu-primary-btn(href='#') START
+        // End Single slide
+// Start Featured Slider
+// Start main content
+main(role='main')
+  // Start OUTFITS GENERATE
+  section#mu-OUTFITS
+    .container
+      .row
+        .col-md-12
+          .mu-OUTFITS-area
+            .mu-OUTFITS-header
+              h2.mu-heading-title
+                | OUTFITS 
+                span  GENERATE
+              span.mu-header-dot
+              p
+                | Saving your outfit ideas can help you get dressed faster and remind you about cute outfits when you feel totally uninspired by your wardrobe.
+            // Start  OUTFITS GENERATE Content
+            .mu-OUTFITS-content
+              .row
+                // OUTFITS GENERATE Single Content
+                .col-md-3.col-sm-6
+                  .mu-OUTFITS-content-single
+                    .btn-group
+                      button.btn.btn-danger.dropdown-toggle(type='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                        | SEASON
+                      .dropdown-menu
+                        li
+                          a.dropdown-item(href='#') SPRING
+                        li
+                          a.dropdown-item(href='#') SUMMER
+                        li
+                          a.dropdown-item(href='#') AUTUMN
+                        li
+                          a.dropdown-item(href='#') WINTER
+                        li
+                          a.dropdown-item(href='#') ALL SEASON
+                        .dropdown-divider
+                // / OUTFITS GENERATE Single Content
+                // OUTFITS GENERATE Single Content
+                .col-md-3.col-sm-6
+                  .mu-OUTFITS.GENERATE-content-single
+                    .btn-group
+                      button.btn.btn-danger.dropdown-toggle(type='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                        | TYPE
+                      .dropdown-menu
+                        li
+                          a.dropdown-item(href='#') TOP
+                        li
+                          a.dropdown-item(href='#') PANTS
+                        li
+                          a.dropdown-item(href='#') SHIRTS
+                        li
+                          a.dropdown-item(href='#') SKIRT
+                        .dropdown-divider
+                // / OUTFITS GENERATE Single Content
+                // OUTFITS GENERATE Single Content
+                .col-md-3.col-sm-6
+                  .mu-OUTFITS.GENERATE-content-single
+                    .btn-group
+                      button.btn.btn-danger.dropdown-toggle(type='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                        | COLOR
+                      .dropdown-menu
+                        li
+                          a.dropdown-item(href='#') BLACK
+                        li
+                          a.dropdown-item(href='#') GRAY
+                        li
+                          a.dropdown-item(href='#') BLUE
+                        li
+                          a.dropdown-item(href='#') WHITE
+                        .dropdown-divider
+                // / OUTFITS GENERATE Single Content
+                // OUTFITS GENERATE Single Content
+                .col-md-3.col-sm-6
+                  .mu-OUTFITS.GENERATE-content-single
+                    .btn-group
+                      button.btn.btn-danger.dropdown-toggle(type='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                        | STYLE
+                      .dropdown-menu
+                        li
+                          a.dropdown-item(href='#') WORK
+                        li
+                          a.dropdown-item(href='#') EVENING
+                        li
+                          a.dropdown-item(href='#') OUTWEAR
+                        li
+                          a.dropdown-item(href='#') XXX
+                        .dropdown-divider
+                // / OUTFITS GENERATE Single Content
+                // End OUTFITS GENERATE Content
+  // End OUTFITS GENERATE
+  // Start Counter
+  section#mu-counter
+    .container
+      .row
+        .col-md-12
+          .mu-counter-area
+            h2.mu-heading-title YOUR RESULT MATCH WITH
+            .mu-counter-block
+              .row
+                // Start Single Counter
+                .col-md-3.col-sm-6
+                  .mu-single-counter
+                    .counter-value(data-count='10') 0
+                    h5.mu-counter-name COLOR
+                // / Single Counter
+                // Start Single Counter
+                .col-md-3.col-sm-6
+                  .mu-single-counter
+                    .counter-value(data-count='15') 0
+                    h5.mu-counter-name OUTFITS
+                // / Single Counter
+                // Start Single Counter
+                .col-md-3.col-sm-6
+                  .mu-single-counter
+                    .counter-value(data-count='22') 0
+                    h5.mu-counter-name WORK
+                // / Single Counter
+                // Start Single Counter
+                .col-md-3.col-sm-6
+                  .mu-single-counter
+                    .counter-value(data-count='15') 0
+                    h5.mu-counter-name TRIP
+                // / Single Counter
+  // End Counter
+  // Start Service
+  section#mu-Service
+    .container
+      .row
+        .col-md-12
+          .mu-Service-area
+            .mu-Service-header
+              h2.mu-heading-title SERVICE
+              span.mu-header-dot
+              p Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            // StartService Content
+            .mu-Service-content
+              .row
+                // Service Single Content
+                .col-md-3.col-sm-6
+                  .mu-Service-content-single
+                    span.mu-Service-icon-box
+                      i.
+                    h4 SELLING
+                    p Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.
+                // / Service Single Content
+                // Service Single Content
+                .col-md-3.col-sm-6
+                  .mu-Service-content-single
+                    span.mu-Service-icon-box
+                      i.
+                    h4 SHOPPING
+                    p Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.
+                // / Service Single Content
+                // Service Single Content
+                .col-md-3.col-sm-6
+                  .mu-Service-content-single
+                    span.mu-Service-icon-box
+                      i.
+                    h4 DONATE
+                    p Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.
+                // / Service Single Content
+                // Service Single Content
+                .col-md-3.col-sm-6
+                  .mu-Service-content-single
+                    span.mu-Service-icon-box
+                      i.
+                    h4 WISH LIST
+                    p Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.
+                // / Service Single Content
+            // End Service Content
+  // End Service
+  // Start Contact
+  section#mu-contact
+    .container
+      .row
+        .col-md-12
+          .mu-contact-area
+            .mu-contact-header
+              h2.mu-heading-title
+                | CONTACT 
+                span US
+              span.mu-header-dot
+              p
+                | To learn more about our service or to have an Consulting professional contact you directly, please submit an email.
+            // Start Contact Content
+            .mu-contact-content
+              .row
+                .col-md-8
+                  .mu-contact-left
+                    #form-messages
+                    form#ajax-contact.mu-contact-form(method='post' action='mailer.php')
+                      .form-group
+                        input#name.form-control(type='text' placeholder='Name' name='name' required='')
+                      .form-group
+                        input#email.form-control(type='email' placeholder='Enter Email' name='email' required='')
+                      .form-group
+                        textarea#message.form-control(placeholder='Message' name='message' required='')
+                      button.mu-send-msg-btn(type='submit')
+                        span SUBMIT
+                .col-md-4
+                  .mu-contact-right
+                    address
+                      p
+                        i.icon-location-pin
+                        | Regina, SK, Canada
+                      p
+                        i.icon-envelope
+                        | contact@contact.com
+                      p
+                        i.icon-phone
+                        | +1 888 777 6666
+                    .mu-social-media
+                      a(href='#')
+                        i.icon-social-facebook
+                      a(href='#')
+                        i.icon-social-twitter
+                      a(href='#')
+                        i.icon-social-google
+                      a(href='#')
+                        i.icon-social-linkedin
+                      a(href='#')
+                        i.icon-social-youtube
+            // End Contact Content
+  // End Contact
+  // Start Google Weather
+  section#mu-google-Weather
+    iframe(src='' width='100%' height='500' frameborder='0' style='border:0;' allowfullscreen='')
+  // End Google Weather
+// End main content
+// Start footer
+footer#mu-footer(role='contentinfo')
+  .container
+    .mu-footer-area
+      p &copy; All right reserved.
+// End footer
+// jQuery library
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+// Include all compiled plugins (below), or include individual files as needed
+// Bootstrap
+script(src='assets/js/bootstrap.min.js')
+// Slick slider
+script(type='text/javascript' src='assets/js/slick.min.js')
+// Counter js
+script(type='text/javascript' src='assets/js/counter.js')
+// Filterable Gallery js
+script(type='text/javascript' src='assets/js/jquery.filterizr.min.js')
+// Gallery Lightbox
+script(type='text/javascript' src='assets/js/jquery.magnific-popup.min.js')
+// Ajax contact form
+script(type='text/javascript' src='assets/js/app.js')
+// Custom js
+script(type='text/javascript' src='assets/js/custom.js')
